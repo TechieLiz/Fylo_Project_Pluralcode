@@ -15,7 +15,7 @@ html {
 @media screen and (max-width: 800px) {
   .container {
     margin: auto;
-    width: 80%;
+    width: 90%;
   }
 }
 .container .head {
@@ -392,6 +392,8 @@ html {
 @media screen and (max-width: 800px) {
   .container .section-three .email-three .email3 {
     padding: 1rem;
+    display: block;
+    width: 100%;
   }
 }
 
@@ -413,8 +415,9 @@ html {
 
 @media screen and (max-width: 800px) {
   .container .section-three .email-three .btn-three {
+    display: block;
     padding: 1rem;
-    width: 40rem;
+    width: 100%;
     font-size: 1.5rem;
   }
 }
