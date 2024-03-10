@@ -15,7 +15,8 @@ html {
 @media screen and (max-width: 800px) {
   .container {
     margin: auto;
-    width: 90%;
+    /* width: 90vw; */
+    width: calc(100vw - 10vw);
   }
 }
 .container .head {
@@ -30,12 +31,23 @@ html {
 .container .head .logo {
   height: 4rem;
 }
+@media screen and (max-width: 800px) {
+  .container .head .logo {
+    height: 3rem;
+  }
+}
 .container .head .nav {
   display: flex;
   gap: 4rem;
   list-style: none;
   font-size: 1.6rem;
   text-transform: capitalize;
+}
+@media screen and (max-width: 800px) {
+  .container .head .nav {
+    display: flex;
+    gap: 1.5rem;
+  }
 }
 .container .section_one {
   min-height: calc(100vh - 10rem);
@@ -250,7 +262,8 @@ html {
   background-color: #fff;
   border-radius: 0.5rem;
 
-   width: 30rem;
+  width: 50rem;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 800px) {
