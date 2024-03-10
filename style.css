@@ -7,22 +7,26 @@ html {
   font-size: 55.5%;
 }
 @media screen and (max-width: 800px) {
+  html,
   body {
-    max-width: 100%;
     overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    position: relative;
   }
 }
 .container {
   margin: auto;
-  background-color: #ff0000;
+  /* background-color: #ff0000; */
   width: 90vw;
   height: 100vh;
 }
 @media screen and (max-width: 800px) {
   .container {
     margin: auto;
-    /* width: 90vw; */
-    width: calc(100vw - 10vw);
+    width: 90vw;
   }
 }
 .container .head {
